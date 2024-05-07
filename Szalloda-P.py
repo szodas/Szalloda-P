@@ -74,13 +74,17 @@ szalloda2.add_szoba(KetagyasSzoba("203", 23999))
 foglalaskezelo1 = FoglalasKezelo(szalloda1)
 foglalaskezelo2 = FoglalasKezelo(szalloda2)
 
-foglalaskezelo1.foglalas("101", datetime(2024, 5, 1))
-foglalaskezelo1.foglalas("102", datetime(2024, 5, 2))
-foglalaskezelo1.foglalas("103", datetime(2024, 5, 3))
+foglalaskezelo1.foglalas("101", datetime(2024, 6, 1))
+foglalaskezelo1.foglalas("102", datetime(2024, 6, 2))
+foglalaskezelo1.foglalas("103", datetime(2024, 6, 3))
+foglalaskezelo1.foglalas("102", datetime(2024, 6, 10))
+foglalaskezelo1.foglalas("103", datetime(2024, 6, 8))
 
-foglalaskezelo2.foglalas("201", datetime(2024, 5, 4))
-foglalaskezelo2.foglalas("202", datetime(2024, 5, 5))
-foglalaskezelo2.foglalas("203", datetime(2024, 5, 6))
+foglalaskezelo2.foglalas("201", datetime(2024, 6, 4))
+foglalaskezelo2.foglalas("202", datetime(2024, 6, 5))
+foglalaskezelo2.foglalas("203", datetime(2024, 6, 6))
+foglalaskezelo2.foglalas("201", datetime(2024, 6, 15))
+foglalaskezelo2.foglalas("202", datetime(2024, 6, 9))
 
 # Felhasználói interfész
 while True:
